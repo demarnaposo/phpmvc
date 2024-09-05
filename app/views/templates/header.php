@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/font-awesome.min.css">
     <title><?= $data['title']; ?></title>
 </head>
 <body>
@@ -17,7 +18,11 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>/home">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>/home">Home</i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>/">Berita</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>/album">Album</a>

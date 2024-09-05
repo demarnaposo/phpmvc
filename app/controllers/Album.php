@@ -84,8 +84,7 @@ class Album extends Controller {
     public function deleteData($id)
     {
 
-        // var_dump($_POST);
-        // die;
+      
 
         if ($this->model('Album_model')->deleteAlbum($id) > 0) {
             Flasher::setFlash('berhasil', 'dihapus', 'success');
